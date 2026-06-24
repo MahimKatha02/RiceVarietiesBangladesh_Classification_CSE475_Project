@@ -1,0 +1,89 @@
+==============================================================================================================
+TASK 2: SUPERVISED BASELINE TRAINING REPORT
+Split: 70:30
+Generated: 2025-10-25 06:23:49
+==============================================================================================================
+
+PROJECT INFORMATION
+--------------------------------------------------------------------------------------------------------------
+Course: CSE475 - Self-Supervised Learning
+Dataset: Rice Varieties in Bangladesh
+Classes: 38 rice varieties
+Total Images: 19,000 (500 per class)
+Image Size: 224x224 pixels
+Training Strategy: Two-phase (frozen backbone -> fine-tuning)
+Total Epochs: 50 (Phase 1: 10, Phase 2: 40)
+
+MODEL PERFORMANCE SUMMARY
+--------------------------------------------------------------------------------------------------------------
+
+Model: ResNet50
+  Overall Accuracy: 71.33%
+  F1-Score (Macro): 0.7014
+  Precision (Macro): 0.7975
+  Recall (Macro): 0.7133
+  ROC-AUC (Macro): 0.9904
+  Parameters: 24,786,086
+  Inference Time: 4.61 ms/image
+  GFLOPs: 0.05
+
+Model: DenseNet121
+  Overall Accuracy: 70.04%
+  F1-Score (Macro): 0.6802
+  Precision (Macro): 0.7928
+  Recall (Macro): 0.7004
+  ROC-AUC (Macro): 0.9926
+  Parameters: 7,707,494
+  Inference Time: 6.35 ms/image
+  GFLOPs: 0.02
+
+Model: MobileNetV2
+  Overall Accuracy: 69.44%
+  F1-Score (Macro): 0.6773
+  Precision (Macro): 0.7823
+  Recall (Macro): 0.6944
+  ROC-AUC (Macro): 0.9903
+  Parameters: 3,060,070
+  Inference Time: 2.77 ms/image
+  GFLOPs: 0.01
+
+Model: InceptionV3
+  Overall Accuracy: 65.47%
+  F1-Score (Macro): 0.6337
+  Precision (Macro): 0.7579
+  Recall (Macro): 0.6547
+  ROC-AUC (Macro): 0.9858
+  Parameters: 23,001,158
+  Inference Time: 4.06 ms/image
+  GFLOPs: 0.05
+
+Model: EfficientNetB0
+  Overall Accuracy: 48.63%
+  F1-Score (Macro): 0.4785
+  Precision (Macro): 0.6109
+  Recall (Macro): 0.4863
+  ROC-AUC (Macro): 0.9445
+  Parameters: 4,851,657
+  Inference Time: 3.63 ms/image
+  GFLOPs: 0.01
+
+==============================================================================================================
+BEST SUPERVISED BASELINE (Reference for SSL)
+==============================================================================================================
+Model: ResNet50
+Test Accuracy: 71.33%
+F1-Score: 0.7014
+Precision: 0.7975
+Recall: 0.7133
+ROC-AUC: 0.9904
+==============================================================================================================
+
+GENERATED FILES
+--------------------------------------------------------------------------------------------------------------
+- Trained models (.h5 files)
+- Training logs (CSV)
+- Training curves and analysis plots
+- Confusion matrices
+- ROC curves
+- Per-model metrics (JSON)
+- Summary results (CSV)

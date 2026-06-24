@@ -1,0 +1,12 @@
+Metric,Value
+Total Images,19000
+Number of Classes,38
+Feature Dimension,384
+Epochs Trained,10
+Initial Loss,-43.0315
+Final Loss,-142.7732
+Best Loss,-143.6975
+Training Samples (80%),15200
+Validation Samples (20%),3800
+Best Classifier,MLP
+Best Accuracy,0.3582

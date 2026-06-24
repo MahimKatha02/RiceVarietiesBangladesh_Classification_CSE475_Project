@@ -1,0 +1,82 @@
+==============================================================================================================
+TASK 2: SUPERVISED BASELINE TRAINING REPORT
+Split: 10:90
+Date: 2025-10-27 15:24:43
+==============================================================================================================
+
+PROJECT INFORMATION
+--------------------------------------------------------------------------------------------------------------
+Course: CSE475 - Self-Supervised Learning
+Dataset: Rice Varieties in Bangladesh (38 classes)
+Total Images: 19000
+Training Strategy: Two-phase (frozen backbone → fine-tuning)
+Total Epochs: 50 (Phase 1: 10, Phase 2: 40)
+
+MODEL PERFORMANCE SUMMARY
+--------------------------------------------------------------------------------------------------------------
+
+Model: ResNet50
+  Test Accuracy: 58.36%
+  F1-Score (Macro): 0.5620
+  Precision (Macro): 0.6794
+  Recall (Macro): 0.5836
+  ROC-AUC: 0.9792
+  Parameters: 24,786,086
+  Training Time: 6.6 minutes
+  Inference Time: 3.69 ms/image
+
+Model: EfficientNetB0
+  Test Accuracy: 41.94%
+  F1-Score (Macro): 0.3888
+  Precision (Macro): 0.5338
+  Recall (Macro): 0.4194
+  ROC-AUC: 0.9502
+  Parameters: 4,851,657
+  Training Time: 5.5 minutes
+  Inference Time: 2.23 ms/image
+
+Model: MobileNetV2
+  Test Accuracy: 43.73%
+  F1-Score (Macro): 0.4031
+  Precision (Macro): 0.5793
+  Recall (Macro): 0.4373
+  ROC-AUC: 0.9656
+  Parameters: 3,060,070
+  Training Time: 4.5 minutes
+  Inference Time: 1.92 ms/image
+
+Model: InceptionV3
+  Test Accuracy: 52.07%
+  F1-Score (Macro): 0.4971
+  Precision (Macro): 0.6143
+  Recall (Macro): 0.5207
+  ROC-AUC: 0.9694
+  Parameters: 23,001,158
+  Training Time: 6.1 minutes
+  Inference Time: 2.48 ms/image
+
+Model: DenseNet121
+  Test Accuracy: 56.70%
+  F1-Score (Macro): 0.5450
+  Precision (Macro): 0.6768
+  Recall (Macro): 0.5670
+  ROC-AUC: 0.9806
+  Parameters: 7,707,494
+  Training Time: 8.3 minutes
+  Inference Time: 3.55 ms/image
+
+==============================================================================================================
+BEST MODEL: ResNet50
+Test Accuracy: 58.36%
+F1-Score: 0.5620
+==============================================================================================================
+
+FILES GENERATED
+--------------------------------------------------------------------------------------------------------------
+- Trained model files (.h5)
+- Training logs (CSV)
+- Training curves and analysis plots
+- Confusion matrices
+- ROC curves
+- Evaluation metrics (JSON)
+- Summary table (CSV)

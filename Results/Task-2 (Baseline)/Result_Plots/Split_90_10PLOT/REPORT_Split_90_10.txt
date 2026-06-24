@@ -1,0 +1,82 @@
+==============================================================================================================
+TASK 2: SUPERVISED BASELINE TRAINING REPORT
+Split: 90:10
+Date: 2025-10-27 15:12:59
+==============================================================================================================
+
+PROJECT INFORMATION
+--------------------------------------------------------------------------------------------------------------
+Course: CSE475 - Self-Supervised Learning
+Dataset: Rice Varieties in Bangladesh (38 classes)
+Total Images: 19000
+Training Strategy: Two-phase (frozen backbone → fine-tuning)
+Total Epochs: 50 (Phase 1: 10, Phase 2: 40)
+
+MODEL PERFORMANCE SUMMARY
+--------------------------------------------------------------------------------------------------------------
+
+Model: ResNet50
+  Test Accuracy: 70.32%
+  F1-Score (Macro): 0.6899
+  Precision (Macro): 0.7880
+  Recall (Macro): 0.7032
+  ROC-AUC: 0.9918
+  Parameters: 24,786,086
+  Training Time: 45.6 minutes
+  Inference Time: 9.19 ms/image
+
+Model: EfficientNetB0
+  Test Accuracy: 45.26%
+  F1-Score (Macro): 0.4425
+  Precision (Macro): 0.5861
+  Recall (Macro): 0.4526
+  ROC-AUC: 0.9444
+  Parameters: 4,851,657
+  Training Time: 34.6 minutes
+  Inference Time: 8.78 ms/image
+
+Model: MobileNetV2
+  Test Accuracy: 69.68%
+  F1-Score (Macro): 0.6798
+  Precision (Macro): 0.7833
+  Recall (Macro): 0.6968
+  ROC-AUC: 0.9908
+  Parameters: 3,060,070
+  Training Time: 33.1 minutes
+  Inference Time: 5.43 ms/image
+
+Model: InceptionV3
+  Test Accuracy: 68.21%
+  F1-Score (Macro): 0.6641
+  Precision (Macro): 0.7837
+  Recall (Macro): 0.6821
+  ROC-AUC: 0.9868
+  Parameters: 23,001,158
+  Training Time: 37.3 minutes
+  Inference Time: 8.47 ms/image
+
+Model: DenseNet121
+  Test Accuracy: 73.58%
+  F1-Score (Macro): 0.7242
+  Precision (Macro): 0.8146
+  Recall (Macro): 0.7358
+  ROC-AUC: 0.9930
+  Parameters: 7,707,494
+  Training Time: 43.0 minutes
+  Inference Time: 14.03 ms/image
+
+==============================================================================================================
+BEST MODEL: DenseNet121
+Test Accuracy: 73.58%
+F1-Score: 0.7242
+==============================================================================================================
+
+FILES GENERATED
+--------------------------------------------------------------------------------------------------------------
+- Trained model files (.h5)
+- Training logs (CSV)
+- Training curves and analysis plots
+- Confusion matrices
+- ROC curves
+- Evaluation metrics (JSON)
+- Summary table (CSV)

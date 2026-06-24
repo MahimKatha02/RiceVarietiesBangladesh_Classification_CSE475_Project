@@ -1,0 +1,7 @@
+Method,BYOL Accuracy (%),vs Task2 Baseline,vs SimCLR
+Linear Probe,64.65,-10.35%,13.72%
+MLP,72.75,-2.25%,21.82%
+SVM,54.6,-20.40%,3.67%
+Decision Tree,40.88,-34.12%,-10.05%
+Random Forest,59.96,-15.04%,9.03%
+Fine-Tuned,13.4,-61.60%,-37.53%
