@@ -344,6 +344,8 @@ If any dataset, code, or reference material is adapted from a third-party source
 
 ---
 
-## License
+# License
 
-No license file has been added yet. Add an appropriate license before distributing or reusing this project publicly.
+This repository is intended for academic and research purposes.
+
+Please contact the authors before commercial use.
