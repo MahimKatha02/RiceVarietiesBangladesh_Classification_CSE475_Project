@@ -18,10 +18,11 @@ The repository includes exploratory data analysis, supervised baseline experimen
 
 ## Author
 
-**Mahim Katha**
-GitHub: [MahimKatha02](https://github.com/MahimKatha02)
-**Akibul Hasan Arman (Project Collaborator)**
-GitHub: [abarman079](https://github.com/abarman079)
+- **Mahim Katha**
+  - GitHub: [MahimKatha02](https://github.com/MahimKatha02)
+
+- **Akibul Hasan Arman (Project Collaborator)**
+  - GitHub: [abarman079](https://github.com/abarman079)
 
 ---
 
